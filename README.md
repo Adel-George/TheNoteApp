@@ -26,5 +26,5 @@ The backend API Sometimes it does not work due to server problems
 ## Login Page
 ![N](./src/img/SignIn.jpg)
 ## Home Page
-![N](./src/img/Home.jpg.jpg)
+![N](./src/img/Home.jpg)
 
