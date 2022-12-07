@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+nav {
+  z-index: 999;
+}
+.bg-img {
+  background-image: url(img/bg-registration-form-6.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.drop {
+  background-color: #84cde1 !important;
+  border: none !important;
+}
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: #84e4ff !important;
+}
+.clean{
+  --bs-dropdown-link-hover-bg: #e9ecef !important;
+}
+.hyWt {
+  height: 58%;
+  width: 58%;
+}
+.img-size {
+  width: 35%;
+}
+#button {
+  background-color: #84cde1;
+  border: none;
+}
+#button:hover {
+  background-color: #84e4ff;
+}
+#del{
+  cursor: pointer;
+}
+#home{
+  background-color: #faf8fc;
+}
+#homeList button{
+  background-color: #6a3ea1 ;
+  color: white;
+}
+.img-s{
+  width: 40%;
+}
+#color1{
+  background-color: #6a3ea1;
+}
+#color2{
+  background-color: #60d889;
+}
+#color3{
+  background-color: #f9c615;
+}
+#color4{
+  background-color: #ce3a54;
+}
+.box-size{
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  color: white;
+}
+body{
+  overflow: auto !important;
+  padding-right:0!important;
+}
+#wordWrap{
+  overflow-wrap: break-word;
+}
+@media screen and (max-width: 992px) {
+  .hyWt {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+  .img-size {
+    transform: translate(0) !important;
+    position: static !important;
+    width: 40%;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+  nav{
+    background-color: #faf8fc;
+  }
+  .drop{
+    background-color: #faf8fc !important;
+  }
+  .drop a{
+    color: #000 !important;
+  }
+  .drop span{
+    color: #000 !important;
+  }
+  .img-s{
+    width: 75%;
+  }
+#homeList button{
+  width: 90%;
+}
+}
