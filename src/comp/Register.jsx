@@ -39,7 +39,7 @@ export default function Register() {
     setCheckList(false);
     const testList= xTest();
     if(testList){
-      const {data}= await axios.post("https://route-egypt-api.herokuapp.com/signup",userList);
+      const {data}= await axios.post("https://route-movies-api.vercel.app/signup",userList);
       if(data.message==="success"){
         navTo("/singIn");
         setCheckList(true);

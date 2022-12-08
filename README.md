@@ -19,12 +19,11 @@ A simple small Note-taking-web-app .
 - Axios
 - Jwt-Decode
 - Note Api
-## Important
-The backend API Sometimes it does not work due to server problems
 ## Register Page
 ![N](./src/img/Register.jpg)
 ## Login Page
 ![N](./src/img/SignIn.jpg)
 ## Home Page
 ![N](./src/img/Home.jpg)
-
+## Home Page 
+![N](./src/img/HomeNote.jpg)

@@ -38,7 +38,7 @@ function xTest(x){
   async  function setNotes(){
     setCheckUser(false);
     const showList =document.querySelector(".modal-backdrop");
-    const {data}=await axios.post("https://route-egypt-api.herokuapp.com/addNote",adNote);
+    const {data}=await axios.post("https://route-movies-api.vercel.app/addNote",adNote);
     if(data.message==="success")
     {
       setCheckUser(true)
@@ -56,7 +56,7 @@ function xTest(x){
 
 useEffect(() => {
   async  function getNotes(){
-    const {data}=await axios.get("https://route-egypt-api.herokuapp.com/getUserNotes",
+    const {data}=await axios.get("https://route-movies-api.vercel.app/getUserNotes",
     {headers:
       {
       "Token":localStorage.getItem("userName"),

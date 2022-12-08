@@ -33,7 +33,7 @@ export default function NotesTitle(props) {
     async  function uptateNotes(){
       setCheckUser(false);
       const showList =document.querySelector(".modal-backdrop");
-      const {data}=await axios.put("https://route-egypt-api.herokuapp.com/updateNote",{
+      const {data}=await axios.put("https://route-movies-api.vercel.app/updateNote",{
         "title":adNote.title,
         "desc":adNote.desc,
         "NoteID":adNote._id,
@@ -59,7 +59,7 @@ export default function NotesTitle(props) {
         const showList =document.querySelector(".modal-backdrop");
         const {data}=await axios({
           method: 'delete',
-          url: 'https://route-egypt-api.herokuapp.com/deleteNote',
+          url: 'https://route-movies-api.vercel.app/deleteNote',
           data: {
             "NoteID":adNote._id,
             "token":adNote.token
