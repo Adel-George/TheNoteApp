@@ -1,6 +1,6 @@
 # TheNoteApp
 
-A simple small Note-taking-web-app .
+A simple small Note-taking-web-app.
 
 ## Features
 - Create Note.
